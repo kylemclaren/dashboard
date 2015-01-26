@@ -5,13 +5,15 @@
     "repository": "https://github.com/Reportr/dashboard",
     "logo": "https://avatars2.githubusercontent.com/u/7984166?v=2&s=200",
     "keywords": ["node", "dashboard", "analytic"],
-    "addons": ["mongolab"],
     "env": {
         "AUTH_USERNAME": {
-                "description": "Username"
+            "description": "Username"
         },
         "AUTH_PASSWORD": {
-                "description": "Password"
+            "description": "Password"
+        },
+        "MONGO_URL": {
+            "description": "Compose MongoDB URI"
         }
     }
 }

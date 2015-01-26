@@ -12,7 +12,7 @@
         "AUTH_PASSWORD": {
             "description": "Password"
         },
-        "MONGO_URL": {
+        "MONGODB_URL": {
             "description": "Compose MongoDB URI"
         }
     }
